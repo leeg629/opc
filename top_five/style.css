@@ -1,0 +1,42 @@
+body {
+  background-color: black;
+}
+
+#textbox {
+  position: absolute;
+  left: 550px;
+  top: 190px;
+}
+
+#greenbox {
+  position: absolute;
+  left: 950px;
+  top: 390px;
+}
+
+#memoji {
+  position: absolute;
+  left: 150px;
+  top: 200px;
+}
+
+p {
+  color: white;
+  font-size: 45px;
+  font-family: Helvetica, sans-serif;
+  font-weight: lighter;
+  left: 635px;
+  top: 207px;
+  position: absolute;
+}
+
+#go {
+  color: white;
+  font-size: 45px;
+  font-family: Helvetica, sans-serif;
+  font-weight: lighter;
+  text-decoration: underline;
+  left: 1050px;
+  top: 427px;
+  position: absolute;
+}

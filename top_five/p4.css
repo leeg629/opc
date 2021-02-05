@@ -1,0 +1,108 @@
+body {
+background-color: black;
+}
+
+.taxi {
+  font-size: 260px;
+  position: absolute;
+  animation-name: taxi;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes taxi {
+    0% {
+    top: 400px;
+    right: 0px;
+  }
+
+    100% {
+    top: 400px;
+    right: 1300px;
+  }
+}
+
+.taxi1 {
+  font-size: 100px;
+  position: absolute;
+  animation-name: taxi1;
+  animation-duration: 6s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes taxi1 {
+    0% {
+    top: 200px;
+    right: 0px;
+  }
+
+    100% {
+    top: 200px;
+    right: 1300px;
+  }
+}
+
+.taxi2 {
+  font-size: 140px;
+  position: absolute;
+  animation-name: taxi2;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes taxi2 {
+    0% {
+    top: 1px;
+    right: 0px;
+  }
+
+    100% {
+    top: 1px;
+    right: 1300px;
+  }
+}
+
+#line1 {
+  color: white;
+  font-size: 15px;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  left: 705px;
+  top: 267px;
+  position: absolute;
+}
+
+#line2 {
+  color: white;
+  font-size: 15px;
+  font-family: Helvetica, sans-serif;
+  font-weight: lighter;
+  left: 550px;
+  top: 297px;
+  position: absolute;
+}
+
+#back {
+  color: white;
+  font-size: 25px;
+  font-family: Helvetica, sans-serif;
+  font-weight: lighter;
+  text-decoration: underline;
+  left: 30px;
+  top: 677px;
+  position: absolute;
+}
+
+#next {
+  color: white;
+  font-size: 25px;
+  font-family: Helvetica, sans-serif;
+  font-weight: lighter;
+  text-decoration: underline;
+  left: 1360px;
+  top: 677px;
+  position: absolute;
+}

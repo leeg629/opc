@@ -1,0 +1,161 @@
+body {
+background-color: black;
+}
+
+.face {
+  font-size: 180px;
+  position: absolute;
+  animation-name: face;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes face {
+    0% {
+    top: 0px;
+    right: 1240px;
+  }
+
+    100% {
+    top: 565px;
+    right: 1240px;
+  }
+}
+
+.face1 {
+  font-size: 150px;
+  position: absolute;
+  animation-name: face1;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes face1 {
+    0% {
+    top: 0px;
+    right: 1000px;
+  }
+
+    100% {
+    top: 565px;
+    right: 1000px;
+  }
+}
+
+.face2 {
+  font-size: 100px;
+  position: absolute;
+  animation-name: face2;
+  animation-duration: 15s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes face2 {
+    0% {
+    top: 0px;
+    right: 700px;
+  }
+
+    100% {
+    top: 565px;
+    right: 700px;
+  }
+}
+
+.face3 {
+  font-size: 200px;
+  position: absolute;
+  animation-name: face3;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes face3 {
+    0% {
+    top: 0px;
+    right: 320px;
+  }
+
+    100% {
+    top: 565px;
+    right: 320px;
+  }
+}
+
+.face4 {
+  font-size: 200px;
+  position: absolute;
+  animation-name: face4;
+  animation-duration: 12s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes face4 {
+    0% {
+    top: 0px;
+    right: 50px;
+  }
+
+    100% {
+    top: 565px;
+    right: 50px;
+  }
+}
+
+
+#line1 {
+  color: white;
+  font-size: 15px;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  left: 705px;
+  top: 267px;
+  position: absolute;
+}
+
+#line2 {
+  color: white;
+  font-size: 15px;
+  font-family: Helvetica, sans-serif;
+  font-weight: lighter;
+  left: 515px;
+  top: 297px;
+  position: absolute;
+}
+
+#line3 {
+  color: white;
+  font-size: 15px;
+  font-family: Helvetica, sans-serif;
+  font-weight: lighter;
+  left: 490px;
+  top: 327px;
+  position: absolute;
+}
+
+#back {
+  color: white;
+  font-size: 25px;
+  font-family: Helvetica, sans-serif;
+  font-weight: lighter;
+  text-decoration: underline;
+  left: 30px;
+  top: 677px;
+  position: absolute;
+}
+
+#next {
+  color: white;
+  font-size: 25px;
+  font-family: Helvetica, sans-serif;
+  font-weight: lighter;
+  text-decoration: underline;
+  left: 1360px;
+  top: 677px;
+  position: absolute;
+}

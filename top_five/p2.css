@@ -1,0 +1,66 @@
+body {
+background-color: black;
+}
+
+.cartwheel {
+  font-size: 350px;
+  position: absolute;
+  top: 345px;
+  animation-name: turning;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes turning {
+  from {
+    transform: rotate(0);
+    left: 0px;
+  }
+  to {
+    transform: rotate(360deg);
+    left: 1050px;
+  }
+}
+
+#line1 {
+  color: white;
+  font-size: 15px;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  left: 655px;
+  top: 267px;
+  position: absolute;
+}
+
+#line2 {
+  color: white;
+  font-size: 15px;
+  font-family: Helvetica, sans-serif;
+  font-weight: lighter;
+  left: 500px;
+  top: 297px;
+  position: absolute;
+}
+
+#back {
+  color: white;
+  font-size: 25px;
+  font-family: Helvetica, sans-serif;
+  font-weight: lighter;
+  text-decoration: underline;
+  left: 30px;
+  top: 677px;
+  position: absolute;
+}
+
+#next {
+  color: white;
+  font-size: 25px;
+  font-family: Helvetica, sans-serif;
+  font-weight: lighter;
+  text-decoration: underline;
+  left: 1360px;
+  top: 677px;
+  position: absolute;
+}

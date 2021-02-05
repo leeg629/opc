@@ -1,0 +1,229 @@
+body {
+background-color: black;
+}
+
+.a1 {
+  font-size: 180px;
+  position: absolute;
+  animation-name: a1;
+  animation-duration: 8s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a1 {
+    0% {
+    top: 565px;
+    right: 917px;
+  }
+    25% {
+    top: 500px;
+  }
+    50% {
+    top: 350px;
+  }
+    75% {
+    top: 220px;
+  }
+    100% {
+    top: 0px;
+    right: 917px;
+  }
+}
+
+.a2 {
+  font-size: 220px;
+  position: absolute;
+  animation-name: a2;
+  animation-duration: 8s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a2 {
+    0% {
+    top: 0px;
+    right: 1187px;
+  }
+    25% {
+    top: 100px;
+  }
+    50% {
+    top: 220px;
+  }
+    75% {
+    top: 400px;
+  }
+    100% {
+    top: 565px;
+    right: 1187px;
+  }
+}
+
+.a3 {
+  font-size: 110px;
+  position: absolute;
+  animation-name: a3;
+  animation-duration: 8s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a3 {
+  0% {
+  top: 0px;
+  right: 607px;
+}
+  25% {
+  top: 50px;
+}
+  50% {
+  top: 120px;
+}
+  75% {
+  top: 300px;
+}
+  100% {
+  top: 565px;
+  right: 607px;
+}
+}
+
+.a4 {
+  font-size: 140px;
+  position: absolute;
+  animation-name: a4;
+  animation-duration: 8s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a4 {
+  0% {
+  top: 565px;
+  right: 417px;
+}
+  25% {
+  top: 500px;
+}
+  50% {
+  top: 350px;
+}
+  75% {
+  top: 220px;
+}
+  100% {
+  top: 0px;
+  right: 417px;
+}
+}
+
+.a5 {
+  font-size: 180px;
+  position: absolute;
+  animation-name: a5;
+  animation-duration: 8s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a5 {
+  0% {
+  top: 0px;
+  right: 207px;
+}
+  25% {
+  top: 100px;
+}
+  50% {
+  top: 220px;
+}
+  75% {
+  top: 400px;
+}
+  100% {
+  top: 565px;
+  right: 207px;
+}
+}
+
+.a6 {
+  font-size: 70px;
+  position: absolute;
+  animation-name: a6;
+  animation-duration: 8s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a6 {
+  0% {
+  top: 565px;
+  right: 87px;
+}
+  25% {
+  top: 500px;
+}
+  50% {
+  top: 350px;
+}
+  75% {
+  top: 220px;
+}
+  100% {
+  top: 0px;
+  right: 87px;
+}
+}
+
+#line1 {
+  color: white;
+  font-size: 15px;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  left: 695px;
+  top: 267px;
+  position: absolute;
+}
+
+#line2 {
+  color: white;
+  font-size: 15px;
+  font-family: Helvetica, sans-serif;
+  font-weight: lighter;
+  left: 495px;
+  top: 297px;
+  position: absolute;
+}
+
+#line3 {
+  color: white;
+  font-size: 15px;
+  font-family: Helvetica, sans-serif;
+  font-weight: lighter;
+  left: 495px;
+  top: 317px;
+  position: absolute;
+}
+
+#back {
+  color: white;
+  font-size: 25px;
+  font-family: Helvetica, sans-serif;
+  font-weight: lighter;
+  text-decoration: underline;
+  left: 30px;
+  top: 677px;
+  position: absolute;
+}
+
+#next {
+  color: white;
+  font-size: 25px;
+  font-family: Helvetica, sans-serif;
+  font-weight: lighter;
+  text-decoration: underline;
+  left: 1360px;
+  top: 677px;
+  position: absolute;
+}
