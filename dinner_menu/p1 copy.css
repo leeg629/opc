@@ -1,0 +1,84 @@
+body {
+  background-image: linear-gradient(180deg, #3367fa, #4bc5f8);
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.date {
+  font-size: 2em;
+  color: white;
+  font-family: Courier New, monospace;
+  text-shadow: 2px 2px 4px #000000;
+  position: fixed;
+  left: 16.8em;
+  top: 2em;
+}
+
+.pooh {
+  font-size: 6em;
+  color: white;
+  font-family: font;
+  text-shadow: 2px 2px 4px #000000;
+  position: fixed;
+  left: 6em;
+  top: 1em;
+}
+
+.birthday {
+  font-size: 6em;
+  color: white;
+  font-family: font;
+  text-shadow: 2px 2px 4px #000000;
+  position: fixed;
+  left: 4em;
+  top: 2.1em;
+}
+
+.invited {
+  font-size: 2em;
+  color: white;
+  font-family: Courier New, monospace;
+  text-shadow: 2px 2px 4px #000000;
+  position: fixed;
+  left: 17.5em;
+  top: 12.5em;
+}
+
+
+@font-face {
+  font-family: font;
+  src: url(font.ttf);
+}
+
+.pooh1 {
+  position: fixed;
+  left: 62em;
+  top: 17em;
+}
+
+.honey {
+  position: fixed;
+  left: 28em;
+  top: 11em;
+}
+
+a {
+  font-size: 4em;
+  color: white;
+  font-weight: lighter;
+  text-decoration: none;
+  font-family: Courier New, monospace;
+  text-shadow: 2px 2px 4px #000000;
+  position: fixed;
+  left: 9.1em;
+  top: 8.5em;
+  border: 2px solid #3367fa;
+  border-radius: 5px;
+  padding: 3px 30px 3px 30px;
+}
+
+a:hover {
+  background-color: #3367fa;
+}

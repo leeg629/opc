@@ -1,0 +1,210 @@
+body {
+  background-image: linear-gradient(180deg, #3367fa, #4bc5f8);
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+
+.menusheet {
+  position: absolute;
+  left: 14.5em;
+  top: 0.2em;
+}
+
+@font-face {
+  font-family: font2;
+  src: url(font2.ttf);
+}
+
+.appetizer {
+  font-size: 5em;
+  color: white;
+  font-family: font2;
+  text-shadow: 2px 2px 4px #000000;
+  position: absolute;
+  left: 7.5em;
+  top: 1.3em;
+}
+
+.bread {
+  font-size: 1.4em;
+  letter-spacing: 0.3em;
+  color: black;
+  font-family: Georgia, serif;
+  position: absolute;
+  left: 24em;
+  top: 12.5em;
+}
+
+.des1 {
+  font-size: 0.8em;
+  color: black;
+  font-family: Verdana, sans-serif;
+  position: absolute;
+  left: 42.4em;
+  top: 24.8em;
+}
+
+.salad {
+  font-size: 1.4em;
+  letter-spacing: 0.3em;
+  color: black;
+  font-family: Georgia, serif;
+  position: absolute;
+  left: 24em;
+  top: 16.5em;
+}
+
+.des2 {
+  font-size: 0.8em;
+  color: black;
+  font-family: Verdana, sans-serif;
+  position: absolute;
+  left: 38.4em;
+  top: 31.8em;
+}
+
+.des22 {
+  font-size: 0.8em;
+  color: black;
+  font-family: Verdana, sans-serif;
+  position: absolute;
+  left: 47em;
+  top: 33.2em;
+}
+
+.prossciutto {
+  font-size: 1.4em;
+  letter-spacing: 0.3em;
+  color: black;
+  font-family: Georgia, serif;
+  position: absolute;
+  left: 24.2em;
+  top: 20.5em;
+  }
+
+.des3 {
+  font-size: 0.8em;
+  color: black;
+  font-family: Verdana, sans-serif;
+  position: absolute;
+  left: 41.8em;
+  top: 38.8em;
+  }
+
+  .entrees {
+    font-size: 5em;
+    color: white;
+    font-family: font2;
+    text-shadow: 2px 2px 4px #000000;
+    position: absolute;
+    left: 7.7em;
+    top: 6.2em;
+  }
+
+  .chicken {
+    font-size: 1.4em;
+    letter-spacing: 0.3em;
+    color: black;
+    font-family: Georgia, serif;
+    position: absolute;
+    left: 22.7em;
+    top: 29.5em;
+    }
+
+    .des4 {
+      font-size: 0.8em;
+      color: black;
+      font-family: Verdana, sans-serif;
+      position: absolute;
+      left: 38em;
+      top: 54.8em;
+      }
+
+      .salmon {
+        font-size: 1.4em;
+        letter-spacing: 0.3em;
+        color: black;
+        font-family: Georgia, serif;
+        position: absolute;
+        left: 19.7em;
+        top: 33.5em;
+        }
+
+        .des5 {
+          font-size: 0.8em;
+          color: black;
+          font-family: Verdana, sans-serif;
+          position: absolute;
+          left: 41em;
+          top: 61.8em;
+          }
+
+          .des55 {
+            font-size: 0.8em;
+            color: black;
+            font-family: Verdana, sans-serif;
+            position: absolute;
+            left: 46em;
+            top: 63.1em;
+            }
+
+            .dessert {
+              font-size: 5em;
+              color: white;
+              font-family: font2;
+              text-shadow: 2px 2px 4px #000000;
+              position: absolute;
+              left: 7.5em;
+              top: 10em;
+            }
+
+            .cake {
+              font-size: 1.4em;
+              letter-spacing: 0.3em;
+              color: black;
+              font-family: Georgia, serif;
+              position: absolute;
+              left: 21.7em;
+              top: 42.7em;
+              }
+
+              .des6 {
+                font-size: 0.8em;
+                color: black;
+                font-family: Verdana, sans-serif;
+                position: absolute;
+                left: 41em;
+                top: 78.1em;
+                }
+
+                .des66 {
+                  font-size: 0.8em;
+                  color: black;
+                  font-family: Verdana, sans-serif;
+                  position: absolute;
+                  left: 46.4em;
+                  top: 79.4em;
+                  }
+
+                  .yogurt {
+                    font-size: 1.4em;
+                    letter-spacing: 0.3em;
+                    color: black;
+                    font-family: Georgia, serif;
+                    position: absolute;
+                    left: 23em;
+                    top: 47.4em;
+                    }
+
+                    .des7 {
+                      font-size: 0.8em;
+                      color: black;
+                      font-family: Verdana, sans-serif;
+                      position: absolute;
+                      left: 39.2em;
+                      top: 86.1em;
+                      }
