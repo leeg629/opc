@@ -1,0 +1,150 @@
+body {
+  background-image: url(background1.jpg);
+  position: flex;
+  font-display: center;
+  text-align: center;
+}
+
+@font-face {
+  font-family: jungle;
+  src: url(jungle.ttf);
+}
+
+@font-face {
+  font-family: font2;
+  src: url(font2.ttf);
+}
+
+.intro {
+
+}
+
+h1 {
+  font-family: jungle;
+  font-size: 8em;
+  color: #5c441b;
+  text-shadow: 5px 5px white;
+  margin-top: 20%;
+}
+
+h2 {
+  font-family: font2;
+  font-size: 4em;
+  color: white;
+  margin-top: 2%;
+  text-shadow: 4px 4px 6px black;
+}
+
+p {
+  font-size: 1.3em;
+  font-family: sans-serif,helvetica;
+  color: white;
+  text-shadow: 4px 4px 6px black;
+  padding-left: 10em;
+  padding-right: 10em;
+}
+
+.resize {
+  font-size: 2em;
+  color: white;
+  text-shadow: 2px 2px 6px black;
+}
+
+
+.gorillaimg {
+  height: 28em;
+  margin-top: -1%;
+}
+
+.chimpanzeeimg {
+  height: 25em;
+  margin-top: 2%;
+}
+
+.monkeyimg {
+  height: 20em;
+  margin-top: 2%;
+}
+
+
+.gorilla {
+  display: none;
+}
+
+.chimpanzee {
+  display: none;
+}
+
+.monkey {
+  display: none;
+}
+
+@media (max-width: 1250px) {
+
+body {
+  background-image: none;
+  background-color: #5dd13d;
+
+}
+
+.intro {
+  display: none;
+}
+
+.gorilla {
+  display: inline-block;
+}
+
+.chimpanzee {
+  display: none;
+}
+.monkey {
+  display: none;
+}
+}
+
+@media (max-width: 1000px) {
+
+body {
+  background-image: none;
+  background-color: #b4f564;
+}
+
+.intro {
+  display: none;
+}
+
+.gorilla {
+  display: none;
+}
+
+.chimpanzee {
+  display: inline-block;
+}
+.monkey {
+  display: none;
+}
+}
+
+@media (max-width: 800px) {
+
+body {
+  background-image: none;
+  background-color: #b4f564;
+}
+
+.intro {
+  display: none;
+}
+
+.gorilla {
+  display: none;
+}
+
+.chimpanzee {
+  display: none;
+}
+.monkey {
+  display: inline-block;
+}
+}

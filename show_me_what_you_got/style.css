@@ -1,0 +1,187 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  color: white;
+  font-size: 100px;
+  font-family: Helvetica, sans-serif;
+  font-weight: normal;
+  left: 232px;
+  top: 112px;
+  position: absolute;
+}
+
+.fa {
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+  width: 20px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-instagram {
+  background: hotpink;
+  color: white;
+}
+
+
+
+
+#click{
+  color: white;
+  font-size: 15px;
+  font-family: Helvetica, sans-serif;
+  font-weight: lighter;
+  text-decoration: none;
+  left: 260px;
+  top: 420px;
+  position: absolute;
+}
+
+#contact{
+  color: hotpink;
+  font-size: 10px;
+  font-family: Helvetica, sans-serif;
+  font-weight: lighter;
+  text-decoration: none;
+  left: 270px;
+  top: 110px;
+  position: absolute;
+}
+
+#email{
+  color: white;
+  font-size: 10px;
+  font-family: Helvetica, sans-serif;
+  font-weight: lighter;
+  text-decoration: none;
+  left: 270px;
+  top: 130px;
+  position: absolute;
+}
+
+#socials{
+  color: white;
+  font-size: 10px;
+  font-family: Helvetica, sans-serif;
+  font-weight: lighter;
+  text-decoration: none;
+  left: 270px;
+  top: 145px;
+  position: absolute;
+}
+
+#bio{
+  color: white;
+  font-size: 10px;
+  font-family: Helvetica, sans-serif;
+  font-weight: lighter;
+  text-decoration: none;
+  left: 475px;
+  top: 292px;
+  position: absolute;
+}
+
+#bio2{
+  color: white;
+  font-size: 10px;
+  font-family: Helvetica, sans-serif;
+  font-weight: lighter;
+  text-decoration: none;
+  left: 635px;
+  top: 306px;
+  position: absolute;
+}
+
+a {
+  color: #7070db;
+  font-size: 20px;
+  font-family: Helvetica, sans-serif;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+img {
+  left: 0px;
+  top: 312px;
+  position: absolute;
+}
+
+
+
+
+.circle1 {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  left: 1090px;
+  top: 0px;
+  position: absolute;
+  background-color: #aquamarine;
+  animation-name: circles;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.circle2 {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  left: 620px;
+  top: 500px;
+  position: absolute;
+  background-color: #aquamarine;
+  animation-name: circles;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.circle3 {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  left: 850px;
+  top: 40px;
+  position: absolute;
+  background-color: #aquamarine;
+  animation-name: circles;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.circle4 {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  left: 1210px;
+  top: 485px;
+  position: absolute;
+  background-color: #aquamarine;
+  animation-name: circles;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.circle5 {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  left: 970px;
+  top: 330px;
+  position: absolute;
+  background-color: #aquamarine;
+  animation-name: circles;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes circles {
+  from {background-color: hotpink;}
+  to {background-color: lightpink;}
+}
