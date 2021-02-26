@@ -1,0 +1,105 @@
+body {
+    background-color: #2f4f10;
+    padding: 90px;
+}
+
+h1 {
+  font-size: 3.5em;
+  color: #194d10;
+  text-align: center;
+  text-shadow: 2px 2px 4px black;
+  font-family: sans-serif,helvetica;
+}
+
+h2 {
+  font-size: 1.7em;
+  color: #7d6824;
+  margin: 3;
+  font-family: sans-serif,helvetica;
+}
+
+h3 {
+  color: white;
+  font-family: sans-serif,helvetica;
+  text-decoration: none;
+}
+
+p {
+  font-size: 1.7em;
+  color: #7d6824;
+  margin: 3;
+  font-family: sans-serif,helvetica;
+  color: white;
+  text-shadow: 2px 2px 4px black;
+}
+
+.child {
+  flex: 1 1 auto;
+  border-radius: 28px;
+  padding: 10px;
+  margin: 6px;
+  text-align: center;
+  font-family: sans-serif,helvetica;
+  display: flex;
+  align-items: stretch;
+  background-color: #bbeb3f;
+}
+
+.block {
+  flex: 1;
+  border-radius: 28px;
+  padding: 10px;
+  margin: 6px;
+  text-align: center;
+  background-color: #bbeb3f;
+  font-family: sans-serif,helvetica;
+}
+
+.column {
+  flex: 1;
+}
+
+.row {
+  display: flex;
+  align-items: stretch;
+}
+
+.item {
+  flex: 2;
+  border-radius: 28px;
+  padding: 10px;
+  margin: 6px;
+  text-align: center;
+  font-family: sans-serif,helvetica;
+}
+
+img {
+
+}
+
+.water {
+  height: 10em;
+  padding-left: 10em;
+}
+
+.eye {
+  height: 15em;
+}
+
+.love {
+  width: 15em;
+  height: 14em;
+}
+
+.sun {
+  height: 18em;
+}
+
+.baby {
+  width: 20em;
+}
+
+.alligator {
+  width: 28em;
+  height: 14em;
+}
