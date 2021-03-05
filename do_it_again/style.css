@@ -1,0 +1,163 @@
+body {
+background-image: url(honey.jpg);
+background-size: cover;
+height: 100%;
+margin: 6rem;
+display: grid;
+background-repeat: no-repeat;
+}
+
+.pooh1 {
+  position: fixed;
+  left: 5em;
+  top: 17em;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 20px;
+}
+
+.text {
+  place-items: left;
+  text-align: center;
+  line-height: 0px;
+  padding-left: 200px;
+}
+
+.date {
+  font-size: 2em;
+  color: white;
+  font-family: Courier New, monospace;
+  text-shadow: 2px 2px 4px #000000;
+  position: relative;
+}
+
+.pooh {
+  font-size: 7em;
+  color: white;
+  font-family: font;
+  text-shadow: 2px 2px 4px #000000;
+  position: relative;
+}
+
+.birthday {
+  font-size: 7em;
+  color: white;
+  font-family: font;
+  text-shadow: 2px 2px 4px #000000;
+  position: relative;
+}
+
+.dinner {
+  font-size: 7em;
+  color: white;
+  font-family: font;
+  text-shadow: 2px 2px 4px #000000;
+  position: relative;
+}
+
+.invited {
+  font-size: 2em;
+  color: white;
+  font-family: Courier New, monospace;
+  text-shadow: 2px 2px 4px #000000;
+  position: relative;
+}
+
+
+@font-face {
+  font-family: font;
+  src: url(font.ttf);
+}
+
+.borderwrap {
+  width: 300px;
+  height: 440px;
+  position: relative;
+  padding: 50px;
+  border-radius: 50px;
+  border: 4px solid #ffffff;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+
+.apppetizer {
+padding-top: 0.5rem;
+}
+
+.button1 {
+color: #ffffff;
+font-size: 3rem;
+font-family: Courier New, monospace;
+text-transform: uppercase;
+text-decoration: none;
+padding: 20px;
+border: 2px solid #ffffff;
+border-radius: 50px;
+display: inline-block;
+transition: all 0.3s ease 0s;
+}
+
+.button1:hover {
+color: #ffffff;
+text-decoration: none;
+border-radius: 6px;
+border-color: #ffffff;
+transition: all 0.3s ease 0s;
+}
+
+.entrees {
+padding-top: 4rem;
+}
+
+.button2 {
+color: #ffffff;
+font-size: 3rem;
+font-family: Courier New, monospace;
+text-transform: uppercase;
+text-decoration: none;
+padding: 20px;
+padding-left: 45px;
+padding-right: 45px;
+border: 2px solid #ffffff;
+border-radius: 50px;
+display: inline-block;
+transition: all 0.3s ease 0s;
+}
+
+.button2:hover {
+color: #ffffff;
+text-decoration: none;
+border-radius: 6px;
+border-color: #ffffff;
+transition: all 0.3s ease 0s;
+}
+
+.dessert {
+padding-top: 4rem;
+}
+
+.button3 {
+color: #ffffff;
+font-size: 3rem;
+font-family: Courier New, monospace;
+text-transform: uppercase;
+text-decoration: none;
+padding: 20px;
+padding-left: 45px;
+padding-right: 45px;
+border: 2px solid #ffffff;
+border-radius: 50px;
+display: inline-block;
+transition: all 0.3s ease 0s;
+}
+
+.button3:hover {
+color: #ffffff;
+text-decoration: none;
+border-radius: 6px;
+border-color: #ffffff;
+transition: all 0.3s ease 0s;
+}
