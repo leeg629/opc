@@ -1,0 +1,44 @@
+body {
+  background-color: red;
+}
+
+.parent {
+ justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#airtable-embed {
+ justify-content: center;
+ margin: auto;
+}
+
+@font-face {
+  font-family: netflix;
+  src: url(netflix.ttf);
+}
+
+h1 {
+  font-family: netflix;
+  font-size: 9em;
+  text-align: center;
+}
+
+p{
+  font-family: Arial,sans-serif;
+  font-weight: lighter;
+  font-size: 2em;
+  line-height: 1.5em;
+  height: auto;
+  color: black;
+  text-shadow: 6px 2px 4px gold;
+  background-color: lightgray;
+  border-radius: 30px;
+  border: 10px solid #cdcdcd;
+  padding: 50px;
+  margin-left: 50px;
+  border-color: black;
+  text-align: center;
+
+
+}
