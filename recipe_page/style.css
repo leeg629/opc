@@ -1,0 +1,86 @@
+body {
+  font-family: ;
+  background-color: red;
+  display: block;
+}
+
+@font-face {
+  font-family: strawberryfont;
+  src: url(strawberryfont.ttf);
+}
+
+@font-face {
+  font-family: bodyfont;
+  src: url(bodyfont.ttf);
+}
+
+.container {
+  background-color: pink;
+  width: 75%;
+  height: 1250px;
+  text-align: center;
+  margin: auto;
+  padding: 8%;
+  margin-top: 2%;
+  border-radius: 15%;
+}
+
+.block1 {
+  background-color: red;
+  float: left;
+  width: 45%;
+  height: 40%;
+  margin-top: 20px;
+  border-radius: 50%;
+  padding: 2%;
+}
+
+.block2 {
+  background-color: red;
+  float: right;
+  width: 37%;
+  height: 35%;
+  margin-top: 20px;
+  border-radius: 50%;
+  padding: 5%;
+}
+
+#title {
+  font-family: strawberryfont;
+  color: red;
+  font-size: 100px;
+  position: relative;
+  text-shadow: 2px 2px 4px #32ed28;
+}
+
+#description{
+  color: black;
+  font-size: 30px;
+  text-align: center;
+  font-family: bodyfont;
+  text-shadow: 2px 2px 4px #32ed28;
+}
+
+#strawberries {
+  align-items: center;
+  width: 100%;
+}
+
+#prepTime {
+  font-family: bodyfont;
+}
+
+#recipeYield {
+  font-family: bodyfont;
+}
+
+#recipeIngredient {
+  color: pink;
+  font-family: verdana,sans-serif;
+}
+
+#recipeInstructions {
+  color: black;
+  font-size: 15px;
+  font-family: verdana,sans-serif;
+}
