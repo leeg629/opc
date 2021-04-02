@@ -1,0 +1,88 @@
+body {
+  background-color: #f7c94a;
+  border: 0.3rem outset red;
+}
+
+h1 {
+  color: #1a8f0d;
+  font-family: bellfoodsfont;
+  font-size: 3rem;
+}
+
+@font-face {
+  font-family: koreanfont;
+  src: url(koreanfont.ttf);
+}
+
+@font-face {
+  font-family: bellfoodsfont;
+  src: url(bellfoods.ttf);
+}
+
+#title {
+  font-size: 10rem;
+  font-family: koreanfont;
+  color: red;
+  text-align: center;
+}
+
+.chopstick {
+  position: fixed;
+  left: 3em;
+  top: 5em;
+}
+
+.pa {
+  position: fixed;
+  right: 2.6em;
+  top: 5em;
+}
+
+.container{
+    margin-bottom: 6rem;
+
+}
+
+.kimchi-container {
+    display: block;
+    margin-top: 5rem;
+    margin-left: 25rem;
+    margin-right: 25rem;
+    border: 3px solid red;
+    border-radius: 70px;
+    padding: 1rem;
+    text-align: center;
+    background: #fae97d;
+}
+
+.kimchi-container:hover {
+    background: #fafcb1;
+    transform: scale(1.2);
+  }
+
+.kimchi-description{
+    display: none;
+    color: brown;
+    width: 80%;
+}
+
+.kimchi-description.active {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.kimchi-image {
+    width: 70%;
+    height: auto;
+    margin: 2rem 2rem 2rem 2rem;
+    border-radius: 50px;
+    border: 3px dashed red;
+    display: none;
+}
+
+.kimchi-image.active {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
