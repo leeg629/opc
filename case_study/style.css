@@ -1,0 +1,172 @@
+@font-face {
+  font-family: coolvetica;
+  src: url(coolvetica.ttf);
+}
+
+@font-face {
+  font-family: text;
+  src: url(text.ttf);
+}
+
+
+/* Style the header with a grey background and some padding */
+.header {
+  overflow: hidden;
+  background-color: #ffcbc4;
+  padding: 20px 10px;
+  font-family: coolvetica;
+  font-size: 25px;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  color: #e31e45;
+}
+
+.header a.active {
+  background-color: #acfce3;
+  color: black;
+}
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+}
+
+.container{
+  display: flex;
+
+}
+
+.side{
+  flex: 10.5;
+  height: 41rem;
+  color: white;
+  background-image: linear-gradient(#acfce3, white);
+  overflow: scroll;
+
+}
+
+.content{
+  flex: 10;
+  height: 41rem;
+  overflow: scroll;
+  line-height: 300px;
+  background-image: linear-gradient(white, #acfce3);
+}
+
+.screen1{
+  display: block;
+  margin-left: 58px;
+  margin-top: 30px;
+}
+
+.title1 {
+  font-family: text;
+  font-size: 20px;
+  margin-left: 120px;
+  margin-top: 60px;
+  color: black;
+}
+
+.par1 {
+font-family: text;
+font-size: 15px;
+width: 400px;
+margin-left: 120px;
+line-height: 20px;
+color: black;
+}
+
+.arrow{
+  margin-left: 113px;
+  margin-top: 40px;
+}
+
+.screen2{
+  display: block;
+  margin-left: 58px;
+  margin-top: 80px;
+}
+
+.par2 {
+font-family: text;
+font-size: 15px;
+width: 400px;
+margin-left: 120px;
+line-height: 20px;
+margin-bottom: 70px;
+color: black;
+}
+
+.title2 {
+  font-family: text;
+  font-size: 20px;
+  margin-left: 120px;
+  margin-top: -76px;
+}
+
+.airtable{
+  display: block;
+  margin-left: 117px;
+  margin-top: -115px;
+}
+
+.par3 {
+font-family: text;
+font-size: 15px;
+width: 450px;
+margin-left: 120px;
+line-height: 20px;
+margin-bottom: 70px;
+margin-top: 60px;
+}
+
+.line{
+  display: block;
+   height: 0px;
+   width: 485px;
+   border: 0;
+   border-top: 1px solid #e31e45;
+   margin-left: 120px;
+}
+
+.title3 {
+  font-family: text;
+  font-size: 20px;
+  margin-left: 120px;
+  margin-top: -95px;
+  font-weight: bold;
+}
+
+.figma{
+  display: block;
+  margin-left: 117px;
+  margin-top: -115px;
+  margin-bottom: 70px;
+}

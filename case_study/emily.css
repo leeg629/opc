@@ -1,0 +1,20 @@
+body{
+  background-color: #e31e45;
+}
+
+.container{
+  margin: 150px;
+}
+
+h1{
+  color: black;
+  font-size: 70px;
+  font-family: helvetica;
+}
+
+p{
+  color: black;
+  font-size: 60px;
+  font-family: helvetica;
+  font-weight: lighter;
+}
